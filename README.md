@@ -2,6 +2,8 @@
 
 
 **Problem-1**: Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
+- solution: [Program1](program1.js)
+
     Calculator inputs :> ‘a’, ‘b’ and ‘type of operation’
     Datatype :> ‘a’ = double, ‘b’ = double, ‘type of operation’ = string
 
@@ -9,6 +11,7 @@
 
 
 **Problem-2**:  With a single integer as the input, generate the following until a = x [series of numbers as shown in the below examples]
+- solution: [Program2](program2.js)
 
     Output: (examples)
         1) input a = 1, then output : 1
@@ -21,6 +24,8 @@
 
 ---
 **Problem-3**:  With a single integer as the input, generate the following until a = x [series of numbers as shown in the below examples]
+- solution: [Program3](program3.js)
+
 
     Output: (examples)
         1) input a = 1, then output : 1
@@ -35,6 +40,8 @@
 ---
 
 **Problem-4**:  Get the total count of number list in the dictionary which is multiple of [1,2,3,4,5,6,7,8,9]
+- solution: [Program4](program4.js)
+
     (examples)
     input: [1,2,8,9,12,46,76,82,15,20,30]
     Output:
