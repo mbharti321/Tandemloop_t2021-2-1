@@ -1,4 +1,4 @@
-// **Problem-2**:  
+// **Problem-2**:
 //   With a single integer as the input, generate the following until a = x [series of numbers as shown in the below examples]
 
 //     Output: (examples)
@@ -9,4 +9,15 @@
 //         .
 //         .
 //         5) input a = x, then output : 1, 3, 5, 7, .......
+// --------------------------------------------------------------------------------
 
+// Importing the module
+const readline = require("readline-sync");
+
+// Enter the number
+let num = Number(readline.question("Please enter a number:"));
+
+// print all odd number numbers
+for (let i = 0; i < num; ++i) {
+  console.log(2*i + 1);
+}
