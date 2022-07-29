@@ -12,3 +12,15 @@
 //         .
 //         7) input a = x, then output : 1, 3, 5, 7, .......
 // ---
+
+// Importing the module
+const readline = require("readline-sync");
+
+// Enter the number
+let num = Number(readline.question("Please enter a number:"));
+
+const printNumCount = (num %2 == 0) ? num-1 : num;
+// print all odd number numbers
+for (let i = 0; i < printNumCount; ++i) {
+  console.log(2*i + 1);
+}
